@@ -1,0 +1,63 @@
+/* Custom styles for Prompt Optimizer */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    height: 100%;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+textarea.form-control:focus {
+    box-shadow: none;
+    border-color: #8ab4f8;
+}
+
+.optimized-prompt {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+    border: 1px solid #e9ecef;
+}
+
+.btn-primary {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+
+.btn-primary:hover {
+    background-color: #357ae8;
+    border-color: #357ae8;
+}
+
+.btn-outline-primary {
+    color: #4285f4;
+    border-color: #4285f4;
+}
+
+.btn-outline-primary:hover {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+
+footer {
+    font-size: 0.875rem;
+}
